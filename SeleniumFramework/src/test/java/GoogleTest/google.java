@@ -21,7 +21,7 @@ public class google {
 		driver.findElement(By.name("q")).sendKeys("Automation");
 		driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]")).click();
 		driver.close();
-		driver.quit();
+		
 		System.out.println("Test completed successfully");
 	}
 	
